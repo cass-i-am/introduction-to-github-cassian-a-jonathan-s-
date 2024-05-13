@@ -1,6 +1,15 @@
 #include <iostream>
+using namespace std;
+
+void print(string c){
+	cout << c;
+}
 
 int main(){
-	std::cout << "Hello World!";
+	print("Hello World!");
 	return 0;
+
 }
+
+
+
